@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngrealestate", "ngrealestate\ngrealestate.csproj", "{82066A03-7165-4170-8469-A68183217621}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ngcommerce", "ngcommerce", "{85759FA7-35FC-4917-8ADD-F8DA8FA1A763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngcommerce.Web", "..\ngcommerce\src\ngcommerce.Web\ngcommerce.Web.csproj", "{8F1E5ED0-A3DD-475B-9722-CC3AC125C052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngcommerce.UI", "..\ngcommerce\src\ngcommerce.UI\ngcommerce.UI.csproj", "{89A7CA72-F1CB-42A9-B364-74015494084B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82066A03-7165-4170-8469-A68183217621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82066A03-7165-4170-8469-A68183217621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82066A03-7165-4170-8469-A68183217621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82066A03-7165-4170-8469-A68183217621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1E5ED0-A3DD-475B-9722-CC3AC125C052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1E5ED0-A3DD-475B-9722-CC3AC125C052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1E5ED0-A3DD-475B-9722-CC3AC125C052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1E5ED0-A3DD-475B-9722-CC3AC125C052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A7CA72-F1CB-42A9-B364-74015494084B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A7CA72-F1CB-42A9-B364-74015494084B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A7CA72-F1CB-42A9-B364-74015494084B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A7CA72-F1CB-42A9-B364-74015494084B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F1E5ED0-A3DD-475B-9722-CC3AC125C052} = {85759FA7-35FC-4917-8ADD-F8DA8FA1A763}
+		{89A7CA72-F1CB-42A9-B364-74015494084B} = {85759FA7-35FC-4917-8ADD-F8DA8FA1A763}
+	EndGlobalSection
+EndGlobal
